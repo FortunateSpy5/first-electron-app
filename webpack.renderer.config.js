@@ -2,7 +2,7 @@ const rules = require("./webpack.rules");
 
 rules.push(
   {
-    test: /\.(scss)$/,
+    test: /\.(sa|sc|c)ss$/,
     use: [
       {
         loader: 'style-loader',
@@ -28,7 +28,7 @@ rules.push(
     ]
   },
   {
-    test: /\.(png|jpe?g|gif|ico|svg)$/,
+    test: /\.(png|jpe?g|gif|ico|svg|woff2|woff)$/,
     use: [
       {
         loader: "file-loader",

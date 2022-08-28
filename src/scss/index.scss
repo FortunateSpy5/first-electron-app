@@ -1,2 +1,21 @@
-@import "~bootstrap/scss/bootstrap";
-@import "style";
+// @import "~bootstrap/scss/bootstrap";
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: #C4FCEF;
+    height: 100vh;
+
+    #root {
+        height: 100%;
+    }
+}

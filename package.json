@@ -47,6 +47,8 @@
     "webpack": "4.44.2"
   },
   "dependencies": {
+    "@fontsource/poppins": "^4.2.2",
+    "@fontsource/raleway": "^4.2.2",
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3",
     "electron-squirrel-startup": "^1.0.0"
